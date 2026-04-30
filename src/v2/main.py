@@ -32,14 +32,14 @@ def extract_text_clips(captions_path=Config.Files.CAPTIONS_OUTPUT_FILE_FINAL):
 def main():
 
     total_start_time = time.time()
-    #video_path = Config.get_video_file_path()
-    #wav_path = mp4_to_wav(video_path,output_folder=Config.Files.WAV_BASE_PATH)
-    #diarization()
-    #transcribe(Config.get_audio_file_path())
-    #update_captions(Config.get_captions_output_path(), Config.get_diarization_output_path())
+    video_path = Config.get_video_file_path()
+    wav_path = mp4_to_wav(video_path,output_folder=Config.Files.WAV_BASE_PATH)
+    diarization()
+    transcribe(Config.get_audio_file_path())
+    update_captions(Config.get_captions_output_path(), Config.get_diarization_output_path())
     print("DONE")
-    extract_text_clips()
-    #apply_srt(Config.get_video_file_path(),Config.Files.CAPTIONS_OUTPUT_FILE_FINAL,Config.Files.VIDEO_FILE_OUTPUT_PATH)
+    #extract_text_clips()
+    apply_srt(Config.get_video_file_path(),Config.Files.CAPTIONS_OUTPUT_FILE_FINAL,Config.Files.VIDEO_FILE_OUTPUT_PATH)
 
 
 if __name__ == '__main__':
