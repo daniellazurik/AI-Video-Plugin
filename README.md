@@ -22,7 +22,7 @@ A major driving force behind this project is the exclusive use of **local Large 
     *   `Meta-Llama-3.1-8B-Instruct` (Q4_K_M & Q8_0)
     *   `Mistral-7B-Instruct-v0.2`
     *   `Phi-3-mini-4k-instruct-q4`
-*   **Hugging Face Audio Models:** `pyannote/speaker-diarization-3.1"
+*   **Hugging Face Audio Models:** `pyannote/speaker-diarization-3.1,
 ivrit-ai/whisper-large-v3-ct2`
 
 ## 📁 Repository Structure
