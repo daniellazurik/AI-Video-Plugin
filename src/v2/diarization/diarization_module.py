@@ -26,7 +26,7 @@ class DiarizationModule:
         try:
             self.diarization_pipeline = Pipeline.from_pretrained(
                 "pyannote/speaker-diarization-3.1",
-                token="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"
+                token="TOKEN_HERE"
             ).to(self.device)
             print("Diarization model loaded successfully.")
         except Exception as e:
